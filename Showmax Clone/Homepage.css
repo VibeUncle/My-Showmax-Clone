@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 100%;
+}
+body{
+    background-color: #18171F;
+    margin: 0;
+    padding: 0;
+}
+/*-------------------- nav bar ----------------------------------------------*/
+
+
+nav{
+    background-color: #000000d6;
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    margin-top: -30px;
+}
+nav img{
+    margin-left: 42%;
+    padding: 5px;
+}
+.nav-buttons{
+    margin-right: 7%;
+}
+nav button{
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+#b1{
+    margin-right: 15px;
+    background-color: white;
+    color: #000000;
+}
+
+
+/*-----------------all button hover effects---------------------------*/
+
+
+#b1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
+#b2:hover{
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+    cursor: pointer;
+}
+#button-2:hover{
+    padding: 12px 15px 13px 15px;
+    width: 147px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+#sect1-btn:hover{
+    width: 240px;
+    height: 55px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#sect2-btn:hover{
+    width: 244px;
+    height: 51px;
+    transition: 0.3s;
+    background-color: #4eb7e8;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*-------------------- division 1 -------------------------------------------*/
+
+.division-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    font-size: larger;
+    color: white;
+    padding-top: 50px;
+}
+.div1{
+    margin: 85px 60px 50px 34px;
+    padding: 0px;
+    /* max-width: max-content; */
+}
+.div1 h6{
+    margin-left: 8px;
+}
+.div1 p{
+    margin: 40px 0px 20px;
+    width: 90%;
+    font-weight: 30px;
+    font-size: 18px;
+    padding-right: 20px;
+}
+.div1 h1{
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1.7em;
+    letter-spacing: normal;
+    margin-bottom: -20px;
+}
+big{
+    font-size: 58px;
+}
+#img1{
+    width: 68%;
+    margin-left: -5%;
+    object-fit: contain;
+
+}
+#button-2{
+    margin: 20px 0px;
+    width: 147px;
+    padding: 12px;
+    background-color: #E83D8E;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+/*---------------------------division 2 ----------------------------------------*/
+
+
+.division-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 0px 0%;
+    color: white;
+    height: 380px;
+}
+#divsect-1{
+    width: 50%;
+    padding: 4% 2% 30px;
+    font-size: 20px;
+    text-align: center;
+    border-top: 3px solid#E83D8E;
+    background: -webkit-gradient(linear,left top,left bottom,from(#1e1d28),color-stop(50.03%,#0b0b0e));
+    background: -o-linear-gradient(top,#1e1d28 0,#0b0b0e 50.03%);
+    background: linear-gradient(180deg,#1e1d28,#0b0b0e 50.03%);
+}
+#divsect-2{
+    width: 50%;
+    padding: 4% 2% 30px;
+    font-size: 18px;
+    text-align: center;
+    border-top: 3px solid#127DAF;
+    background-color: #1D1C26;
+    background: -webkit-gradient(linear,left top,left bottom,from(#1e1d28),color-stop(146.98%,#0b0b0e));
+    background: -o-linear-gradient(top,#1e1d28 0,#0b0b0e 146.98%);
+    background: linear-gradient(180deg,#1e1d28,#0b0b0e 146.98%);
+}
+
+/*------------------------- division-2 child elements styling  ----------*/
+
+
+.division-2 p{
+    margin-top: 19px;
+    line-height: 1.4em;
+    margin-bottom: 50px;
+}
+
+#divsect-1 h2{
+    font-size: 32px;
+}
+#divsect-2 h2{
+    font-size: 32px;
+}
+
+#divsect-2 p{
+    padding-bottom: 2px;
+}
+#sect2-btn img{
+    margin: 2px -60px 0px -19px;
+}
+
+
+
+/*------------------Continuation of  division 2 styling -----------------*/
+
+#sect1-btn{
+    width: 230px;
+    padding: 15px 12px 17px;
+    background-color: #E83D8E;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bolder;
+    
+}
+
+#sect2-btn{
+    width: 245px;
+    background-color: #127DAF;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bolder;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+
+
+/*---------------------Division 3 -------------------------------*/
+/* no styling was needed in dividion 3 */
+
+
+
+/*---------------------------Divison 4 ----------------------------------- */
+
+.division-4{
+    line-height: 5em;
+    padding: 3em;
+}
+.division-4 h2{
+    font-size: 30px;
+    text-align: center;
+}
+.div-details{
+    padding: 30px 3em 45px 5em;
+    width: 88%;
+}
+.div-details summary{
+    font-size: 19px;
+    padding: 7px;
+    border-top: 1px solid rgb(240, 240, 240);
+    cursor: pointer;
+    outline: 10px;
+    transition: background-color .3s;
+}
+#last-sum{
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.div-details summary:hover {
+    background-color: rgba(234, 234, 234, 0.619);
+}
+.div-details div{
+    margin-left: 20px;
+    width: 90%;
+    height: -40px;
+    font-size: 16px;
+    padding-bottom: 26px;
+    line-height: 30px;
+    color: rgb(137, 137, 137);
+}
+.div-details li{
+    margin-left: 40px;
+}
+.div-details a{
+    color: #E83D8E;
+}
+
+
+
+/*--------------------Division 5 ------------------------------------- */
+
+
+.division-5{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px 10px;
+    background-color: #000000;
+}
+.divsect-5{
+    border-top: 1px solid rgb(79, 79, 79);
+    display: flex;
+    color: rgb(136, 136, 136);
+    justify-content: space-evenly;
+    padding: 30px 20%;
+    height: 2em;
+}
+#last-p{
+    color: rgb(113, 108, 108);
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+#last-head{
+    color: rgb(113, 108, 108);
+}
